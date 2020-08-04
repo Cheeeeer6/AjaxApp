@@ -25,10 +25,10 @@ function check() {
         } else {
           return null;
         }
-      }
+      };
       XHR.onerror = () => {
         alert("Request failed");
-      }
+      };
 
       e.preventDefault();
     });
